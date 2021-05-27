@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+    #service 1: definition of mysql database
+    db:
+      image: mysql:latest
+      container_name: mysql-estudy   
+      environment:
+        - MYSQL_ROOT_USER=root
+        - MYSQL_ROOT_PASSWORD=root
+        - MYSQL_USER=estudy
+        - MYSQL_PASSWORD=estudy
+      ports:
+        - "3307:3306"
+#      restart: always
+      
+    
+    #service 2: definition of phpMyAdmin
+    phpmyadmin:
+      image: phpmyadmin/phpmyadmin:latest
+      container_name: phpmyadmin-estudy
+      ports:
+        - "8082:80"
+#      restart: always
+        
+      depends_on:
+        - db
+      environment:
+        SPRING_DATASOURCE_USERNAME: estudy
+        SPRING_DATASOURCE_PASSWORD: estudy
+    
+    
+    
+    #service 3: definition of your spring-boot app 
+    service:                        #it is just a name, which will be used only in this file.
+      image: e-study               #name of the image after dockerfile executes
+      container_name: service-estudy  #name of the container created from docker image
+      build:
+        context: .                          #docker file path (. means root directory)
+        dockerfile: Dockerfile              #docker file name
+      ports:
+        - "8088:8088"                       #docker containter port with your os port
+      restart: always
+        
+      depends_on:                           #define dependencies of this app
+        - db                                #dependency name (which is defined with this name 'db' in this file earlier)
+      environment:
+        SPRING_DATASOURCE_URL: jdbc:mysql://mysql-estudy:3306/estudy?allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true&useSSL=false&verifyServerCertificate=false&serverTimezone=UTC
+        SPRING_DATASOURCE_USERNAME: estudy
+        SPRING_DATASOURCE_PASSWORD: estudy
+        SERVER_PORT: 8088
+        LOGGINGLEVEL_ROOT: DEBUG
