@@ -48,7 +48,7 @@ public class TutorialService {
 	}
 
 	public void deleteAll() {
-		tutorialRepository.deleteAll();
+		tutorialRepository.deleteAllInBatch();
 	}
 
 }
