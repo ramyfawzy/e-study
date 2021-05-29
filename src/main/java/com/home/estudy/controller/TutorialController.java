@@ -8,6 +8,7 @@ import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,7 +20,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.home.estudy.entity.Student;
 import com.home.estudy.entity.Tutorial;
+import com.home.estudy.service.StudentService;
 import com.home.estudy.service.TutorialService;
 
 import io.swagger.v3.oas.annotations.Operation;
@@ -37,6 +40,9 @@ public class TutorialController {
 
 	@Autowired
 	TutorialService tutorialService;
+
+	@Autowired
+	StudentService studentService;
 
 	@Operation(summary = "Find Tutorials by title", description = "Tutorials search by %title%", operationId = "getAllTutorials")
 	@ApiResponses(value = {
@@ -171,6 +177,36 @@ public class TutorialController {
 		} catch (Exception e) {
 			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
+	}
+
+	@GetMapping(name = "/tutorials/students/{id}", path = "/tutorials/students/{id}", produces = { "application/json",
+			"application/xml" })
+	public ResponseEntity<Tutorial> getTutorialByIdFetchStudents(
+			@Parameter(description = "Id of the tutorial for search.", example = "5", required = true) @PathVariable("id") long id) {
+		Optional<Tutorial> tutorialData = tutorialService.findByIdFetchStudents(id);
+
+		if (tutorialData.isPresent()) {
+			return new ResponseEntity<>(tutorialData.get(), HttpStatus.OK);
+		} else {
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		}
+	}
+
+	@Operation(summary = "Add a student to an existing tutorial", description = "Add student to an existing tutorial", operationId = "addStudentToTutorial")
+	@ApiResponses(value = { @ApiResponse(responseCode = "200", description = "successful operation"),
+			@ApiResponse(responseCode = "400", description = "Invalid ID supplied"),
+			@ApiResponse(responseCode = "204", description = "Tutorial not found"),
+			@ApiResponse(responseCode = "404", description = "No tutorials found"),
+			@ApiResponse(responseCode = "405", description = "Validation exception") })
+	@PutMapping(value = "/tutorials/{id}/student/{studentId}", name = "/tutorials/{id}/student/{studentId}", path = "/tutorials/{id}/student/{studentId}", produces = {
+			MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE })
+	public ResponseEntity<Tutorial> addStudentToTutorial(
+			@Parameter(description = "Id of the tutorial to add student to. Cannot null or empty.", required = true) @PathVariable("id") long id,
+			@Parameter(description = "Id of the student to be added. Cannot null or empty.", required = true) @PathVariable("studentId") long studentId) {
+		Optional<Tutorial> updatedTutorial = tutorialService.addStudentToTutorial(id, studentId);
+		if (updatedTutorial.isEmpty())
+			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+		return new ResponseEntity<>(updatedTutorial.get(), HttpStatus.OK);
 	}
 
 }

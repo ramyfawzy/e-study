@@ -1,16 +1,23 @@
 package com.home.estudy.entity;
 
+import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Objects;
+import java.util.Set;
 
 import javax.persistence.*;
 
+@NamedEntityGraph(name = "tutorials-students-graph", attributeNodes = @NamedAttributeNode("description"))
 @Entity
 @Table
-public class Tutorial {
+public class Tutorial implements Serializable {
+
+	private static final long serialVersionUID = -2924200699742004758L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 
 	@Column(name = "description")
 	private String description;
@@ -21,6 +28,10 @@ public class Tutorial {
 	@Column(name = "title")
 	private String title;
 
+	@ManyToMany(cascade = { CascadeType.PERSIST, CascadeType.MERGE }, fetch = FetchType.LAZY)
+	@JoinTable(name = "tutorial_student", joinColumns = @JoinColumn(name = "tutorial_id", referencedColumnName = "id"), inverseJoinColumns = @JoinColumn(name = "student_id", referencedColumnName = "id"))
+	private Set<Student> students = new HashSet<>();
+
 	public Tutorial() {
 
 	}
@@ -29,6 +40,27 @@ public class Tutorial {
 		this.description = description;
 		this.published = published;
 		this.title = title;
+	}
+
+	public void addStudent(Student student) {
+		this.students.add(student);
+		student.getTutorials().add(this);
+	}
+
+	public void removeStudent(Student student) {
+		this.students.remove(student);
+		student.getTutorials().remove(this);
+	}
+
+	public void removeStudents() {
+		Iterator<Student> iterator = this.students.iterator();
+
+		while (iterator.hasNext()) {
+			Student student = iterator.next();
+
+			student.getTutorials().remove(this);
+			iterator.remove();
+		}
 	}
 
 	public String getTitle() {
@@ -55,11 +87,19 @@ public class Tutorial {
 		this.published = published;
 	}
 
-	public long getId() {
+	public Set<Student> getStudents() {
+		return students;
+	}
+
+	public void setStudents(Set<Student> students) {
+		this.students = students;
+	}
+
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -77,7 +117,7 @@ public class Tutorial {
 			return false;
 		}
 		Tutorial other = (Tutorial) obj;
-		return id == other.id && Objects.equals(title, other.title);
+		return id == other.id;
 	}
 
 	@Override
