@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.home.estudy.entity.Student;
 import com.home.estudy.entity.Tutorial;
 import com.home.estudy.service.StudentService;
 import com.home.estudy.service.TutorialService;

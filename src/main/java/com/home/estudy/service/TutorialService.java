@@ -1,7 +1,6 @@
 package com.home.estudy.service;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -9,25 +8,13 @@ import java.util.Optional;
 
 import javax.persistence.EntityGraph;
 import javax.persistence.EntityManager;
-import javax.persistence.Tuple;
-import javax.persistence.TypedQuery;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Join;
-import javax.persistence.criteria.JoinType;
-import javax.persistence.criteria.ParameterExpression;
-import javax.persistence.criteria.Root;
 import javax.transaction.Transactional;
 
-import org.hibernate.graph.GraphParser;
-import org.hibernate.graph.RootGraph;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.home.estudy.entity.Student;
-import com.home.estudy.entity.Student_;
 import com.home.estudy.entity.Tutorial;
-import com.home.estudy.entity.Tutorial_;
 import com.home.estudy.repository.TutorialRepository;
 
 @Service

@@ -1,9 +1,7 @@
 package com.home.estudy.entity;
 
 import java.io.Serializable;
-import java.util.Collection;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Objects;
 import java.util.Set;
 
