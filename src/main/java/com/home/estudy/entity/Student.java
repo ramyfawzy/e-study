@@ -7,6 +7,7 @@ import java.util.Set;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -29,7 +30,7 @@ public class Student implements Serializable {
 	private String name;
 
 	@JsonBackReference
-	@ManyToMany(mappedBy = "students")
+	@ManyToMany(mappedBy = "students", fetch = FetchType.LAZY)
 	private Set<Tutorial> tutorials = new HashSet<>();
 
 	public Student() {

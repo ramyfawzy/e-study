@@ -8,7 +8,8 @@ import java.util.Set;
 
 import javax.persistence.*;
 
-@NamedEntityGraph(name = "tutorials-students-graph", attributeNodes = @NamedAttributeNode("description"))
+@NamedEntityGraph(name = "tutorial.student.graph", attributeNodes = @NamedAttributeNode(value = "students", subgraph = "students"), 
+	subgraphs = @NamedSubgraph(name = "students", attributeNodes = @NamedAttributeNode("name")))
 @Entity
 @Table
 public class Tutorial implements Serializable {

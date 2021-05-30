@@ -1,6 +1,5 @@
 package com.home.estudy.service;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -42,65 +41,14 @@ public class TutorialService {
 
 	@Transactional
 	public Optional<Tutorial> findByIdFetchStudents(long id) {
-		/* Inner Join */
-//		CriteriaBuilder cb = entityManager.getCriteriaBuilder();
-//		CriteriaQuery<Tutorial> cq = cb.createQuery(Tutorial.class);
-//		Root<Tutorial> root = cq.from(Tutorial.class);
-//		Join<Tutorial, Student> student = root.join(Tutorial_.STUDENTS);
-//		ParameterExpression<Long> tutorialId = cb.parameter(Long.class);
-//		cq.where(cb.equal(student.get(Student_.ID), tutorialId));
-//		TypedQuery<Tutorial> q = entityManager.createQuery(cq);
-//		q.setParameter(tutorialId, id);
-//		System.err.println(q.toString());
-//		List<Tutorial> tutorials = q.getResultList();
-		
-		/* Left Outer Join */
-//		CriteriaBuilder cb = entityManager.getCriteriaBuilder();
-//		CriteriaQuery<Tuple> cq = cb.createTupleQuery();
-//		Root<Tutorial> root = cq.from(Tutorial.class);
-//		Join<Object, Object> student = root.join(Tutorial_.STUDENTS, JoinType.LEFT);
-//		cq.multiselect(root, student);
-//		ParameterExpression<Long> tutorialId = cb.parameter(Long.class);
-//		cq.where(cb.equal(student.get(Student_.ID), tutorialId));
-//		TypedQuery<Tuple> q = entityManager.createQuery(cq);
-//		q.setParameter(tutorialId, id);
-//		System.err.println(q.toString());
-//		List<Tuple> tutorials = q.getResultList();
-		
-		
 		/* EntityGraph Fetch */
-//		RootGraph<Tutorial> graph = GraphParser.parse(Tutorial.class, "students", entityManager);
-//		EntityGraph<Tutorial> entityGraph = entityManager.createEntityGraph(Tutorial.class);
-//		entityGraph.addAttributeNodes("description");
-//		entityGraph.addAttributeNodes("title");
-//		entityGraph.addAttributeNodes("students");
-//		entityGraph.addSubgraph("students")
-//		  .addAttributeNodes("name");
-//		CriteriaBuilder cb = entityManager.getCriteriaBuilder();
-//		CriteriaQuery<Tutorial> cq = cb.createQuery(Tutorial.class);
-//		Root<Tutorial> root = cq.from(Tutorial.class);
-//		Join<Object, Object> student = root.join(Tutorial_.STUDENTS, JoinType.LEFT);
-//		 
-//		ParameterExpression<Long> tutorialId = cb.parameter(Long.class);
-//		cq.where(cb.equal(student.get(Tutorial_.ID), tutorialId));
-//		 
-//		TypedQuery<Tutorial> q = entityManager.createQuery(cq);
-//		q.setParameter(tutorialId, id);
-//		List<Tutorial> tutorials = q.getResultList();
-		
-		
-		EntityGraph<?> graph = entityManager.getEntityGraph("tutorials-students-graph");
-	      Map<String, Object> properties = new HashMap<>();
-//	      properties.put("javax.persistence.fetchgraph", graph);
-	      properties.put("javax.persistence.loadgraph", graph);
-	      Tutorial tutorial = entityManager.find(Tutorial.class, 1L, properties);
-		System.err.println("id : "+entityManager.getEntityManagerFactory().getPersistenceUnitUtil().isLoaded(tutorial, "id"));
-		System.err.println("description : "+entityManager.getEntityManagerFactory().getPersistenceUnitUtil().isLoaded(tutorial, "description"));
-		System.err.println("published : "+entityManager.getEntityManagerFactory().getPersistenceUnitUtil().isLoaded(tutorial, "published"));
-		System.err.println("title : "+entityManager.getEntityManagerFactory().getPersistenceUnitUtil().isLoaded(tutorial, "title"));
-		System.err.println("students : "+entityManager.getEntityManagerFactory().getPersistenceUnitUtil().isLoaded(tutorial, "students"));
-		var tutorials = new ArrayList<Tutorial>();
-		return tutorials == null || tutorials.isEmpty() ? Optional.empty() : Optional.of(tutorials.get(0));
+		EntityGraph<?> graph = entityManager.getEntityGraph("tutorial.student.graph");
+		Map<String, Object> hints = new HashMap<>();
+		hints.put("javax.persistence.fetchgraph", graph);
+//	      hints.put("javax.persistence.fetchgraph", graph);
+		Tutorial tutorial = entityManager.find(Tutorial.class, id, hints);
+
+		return tutorial == null || tutorial.getId() == null ? Optional.empty() : Optional.of(tutorial);
 	}
 
 	public List<Tutorial> findByPublished(boolean published) {

@@ -77,7 +77,7 @@ public class TutorialController {
 			"application/xml" })
 	public ResponseEntity<Tutorial> getTutorialById(
 			@Parameter(description = "Id of the tutorial for search.", example = "5", required = true) @PathVariable("id") long id) {
-		Optional<Tutorial> tutorialData = tutorialService.findById(id);
+		Optional<Tutorial> tutorialData = tutorialService.findByIdFetchStudents(id);
 
 		if (tutorialData.isPresent()) {
 			return new ResponseEntity<>(tutorialData.get(), HttpStatus.OK);
