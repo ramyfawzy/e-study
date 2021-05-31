@@ -8,7 +8,8 @@ import java.util.Optional;
 import javax.persistence.EntityGraph;
 import javax.persistence.EntityManager;
 import javax.transaction.Transactional;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -21,6 +22,8 @@ import com.home.estudy.repository.TutorialRepository;
 @Service
 public class TutorialService {
 
+	private static final Logger LOGGER = LoggerFactory.getLogger(TutorialService.class);
+	
 	private TutorialRepository tutorialRepository;
 	private StudentService studentService;
 
@@ -34,6 +37,7 @@ public class TutorialService {
 	}
 
 	public List<Tutorial> findAllTutorials() {
+		LOGGER.debug("Finding all tutorials ...");
 		return tutorialRepository.findAll();
 	}
 
@@ -63,6 +67,7 @@ public class TutorialService {
 	}
 
 	public List<Tutorial> findByTitleContaining(String title) {
+		LOGGER.debug("Finding tutorials by title {}", title);
 		return tutorialRepository.findByTitleContaining(title);
 	}
 

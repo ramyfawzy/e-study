@@ -1,347 +1,347 @@
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Andra Pradesh', 1,'Hyderabad');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Arunachal Pradesh',0,'Itangar');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Assam',1,'Dispur');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Bihar',0,'Patna');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Chhattisgarh',1,'Raipur');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Goa',0,'Panaji');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Gujarat',1,'Gandhinagar');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Haryana',0,'Chandigarh');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Himachal Pradesh',1,'Shimla');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Jharkhand',0,'Ranchi');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Karnataka',1,'Bangalore');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Kerala',0,'Thiruvananthapuram');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Madhya Pradesh',1,'Bhopal');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Maharashtra',0,'Mumbai');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Manipur',1,'Imphal');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Meghalaya',0,'Shillong');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Mizoram',1,'Aizawi');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Nagaland',0,'Kohima');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Orissa',1,'Bhubaneshwar');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Rajasthan',0,'Jaipur');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Sikkim',1,'Gangtok');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Tamil Nadu',0,'Chennai');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Telangana',1,'Hyderabad');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Tripura',0,'Agartala');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Uttaranchal',1,'Dehradun');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Uttar Pradesh',0,'Lucknow');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'West Bengal',1,'Kolkata');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Punjab',0,'Chandigarh');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Harding Trujillo',0,'Gravida Corporation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Salvador Merritt',1,'Natoque Penatibus Et Incorporated');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Demetrius Hull',1,'Nisl Nulla Industries');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Ralph Morse',0,'Neque Inc.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Cole Payne',0,'Dapibus Quam Quis LLP');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Zephania Mcneil',0,'Tempor Industries');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Kareem Oliver',0,'Eu Ltd');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Nathan Moran',0,'Nulla Inc.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Perry Bray',1,'Nam Consequat Dolor Foundation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Paul Mcconnell',0,'Et Libero Associates');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Jack Oneill',1,'Lorem Limited');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Derek Garner',1,'Feugiat Sed Nec Foundation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Dalton Riggs',1,'Blandit Company');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Upton Dean',0,'Dapibus Gravida Aliquam Foundation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Ishmael Jones',1,'Volutpat Nulla LLC');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Samson Owen',1,'Lectus Institute');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Chase Lowery',1,'Ornare Corporation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Julian Fleming',1,'Mi LLP');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Avram Pollard',1,'Aliquet Lobortis Nisi Foundation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Wing Boyle',0,'Mattis Foundation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Jermaine Rojas',0,'Aliquam Adipiscing Ltd');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Chadwick Harris',1,'Tristique Senectus Et Associates');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Nash Vaughan',1,'Sociosqu LLC');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Lamar Best',1,'Etiam Vestibulum LLP');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Adrian Valenzuela',0,'Sem Consulting');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Reese Powers',1,'Vel Company');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Robert Wallace',1,'Orci Ut Inc.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Aquila Crawford',1,'Ac Arcu Nunc Consulting');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Craig Chavez',0,'Augue Malesuada Malesuada Industries');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Ishmael Dominguez',1,'Lobortis Consulting');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Adam Larson',1,'In LLP');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Tanek Brown',0,'Turpis Egestas Aliquam PC');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Kasper Baird',0,'Dictum Augue Malesuada Ltd');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Damon Durham',0,'Adipiscing Lobortis Risus Limited');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Xanthus Charles',0,'Lectus Pede Ultrices LLP');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Tyrone Mcguire',0,'Ornare LLC');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Cody Hewitt',0,'Ac Facilisis Facilisis Institute');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Colton Waters',1,'Sed Incorporated');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Thaddeus Acosta',0,'Vitae Sodales LLP');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Wyatt Hancock',1,'Vitae Limited');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Harding Trujillo',1,'Iaculis Lacus Consulting');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Dennis Hicks',0,'Mauris Associates');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Aidan Miller',0,'Dolor Corp.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'John Henson',0,'In Magna Phasellus Corporation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Steven Abbott',1,'Nulla Magna Institute');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Nero Mitchell',0,'Nulla Interdum Corp.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Abdul Wyatt',0,'A Limited');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Jeremy Blanchard',1,'Pharetra Sed Hendrerit Inc.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Garrett Spencer',1,'Neque Foundation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Evan Cameron',1,'Elit Dictum Eu Consulting');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Flynn Preston',1,'Enim Consequat Purus Company');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Jarrod Nichols',0,'Enim Sit Amet LLC');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Chancellor Rivers',1,'Non Dui Nec Inc.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Marsden Diaz',0,'Condimentum Donec Ltd');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Graiden Strickland',1,'At Consulting');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Channing Suarez',1,'Mauris Morbi Consulting');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Garrett Giles',0,'Congue Associates');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Cooper Rowe',0,'Mi Ac Incorporated');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Kenneth Patrick',0,'Orci Luctus Institute');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Mohammad Dixon',0,'Convallis Institute');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Coby Horton',1,'Nec PC');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Vaughan Keller',1,'Ac Fermentum Vel Corp.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Jack Mclean',0,'Lobortis Industries');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Ray Richmond',0,'Ipsum Corp.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Branden Keller',1,'Fames LLP');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Brady Terry',0,'Amet Nulla Donec Consulting');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Kenyon Scott',0,'Quis Tristique Ac Ltd');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Marvin Yang',1,'Rhoncus Industries');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Prescott Rice',1,'Suspendisse Dui Industries');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Jerome Leon',1,'Curabitur LLC');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Myles Frye',1,'Lorem Ut Aliquam PC');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Kenyon Blevins',0,'Donec Limited');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Graham Mckee',1,'Nec Euismod Inc.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Cade Bush',0,'Magna Malesuada Company');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Dominic Morris',1,'Volutpat Nunc LLP');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Blaze Carlson',1,'Luctus PC');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Hamish Barnes',0,'Sem Vitae Aliquam Corporation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Kyle Griffith',1,'Augue Ut Industries');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Brendan Booker',1,'Mauris Sapien Cursus Foundation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Flynn Buckley',0,'Magna A Tortor Inc.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Todd Mcmillan',1,'Arcu Company');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Honorato Hensley',1,'Amet Nulla Inc.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Brandon Dyer',1,'Metus Vivamus Euismod LLC');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Damian Bentley',1,'Et Rutrum Non LLP');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Fitzgerald Charles',1,'Faucibus Leo Company');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Avram Santana',0,'Fringilla Est Incorporated');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Baxter Poole',0,'Laoreet Libero Et Industries');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Lyle Mcleod',0,'Eget Industries');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Jeremy Guerrero',1,'Aliquet Libero Integer Foundation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Kasper Snyder',0,'Tellus Eu Augue Inc.');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Timon Christian',0,'Neque Sed Associates');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Kane Chen',0,'Gravida Sagittis Associates');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Hedley Hogan',0,'Aliquet Ltd');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Nissim Burch',0,'Leo Ltd');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Ashton Carson',0,'Semper Egestas Urna LLP');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'James Garrett',1,'Donec Vitae Foundation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Beau Burton',0,'Eget Magna Foundation');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Kamal Gardner',0,'Enim Mi Consulting');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Porter Walker',1,'Metus In Consulting');
-INSERT INTO tutorial (id,description,published,title) VALUES (default,'Daniel Melton',0,'Mollis Integer Tincidunt Corp.');
+INSERT INTO tutorial (id,description,published,title) VALUES (default,'Andra Pradesh', 1,'Hyderabad')
+,(default,'Arunachal Pradesh',0,'Itangar')
+,(default,'Assam',1,'Dispur')
+,(default,'Bihar',0,'Patna')
+,(default,'Chhattisgarh',1,'Raipur')
+,(default,'Goa',0,'Panaji')
+,(default,'Gujarat',1,'Gandhinagar')
+,(default,'Haryana',0,'Chandigarh')
+,(default,'Himachal Pradesh',1,'Shimla')
+,(default,'Jharkhand',0,'Ranchi')
+,(default,'Karnataka',1,'Bangalore')
+,(default,'Kerala',0,'Thiruvananthapuram')
+,(default,'Madhya Pradesh',1,'Bhopal')
+,(default,'Maharashtra',0,'Mumbai')
+,(default,'Manipur',1,'Imphal')
+,(default,'Meghalaya',0,'Shillong')
+,(default,'Mizoram',1,'Aizawi')
+,(default,'Nagaland',0,'Kohima')
+,(default,'Orissa',1,'Bhubaneshwar')
+,(default,'Rajasthan',0,'Jaipur')
+,(default,'Sikkim',1,'Gangtok')
+,(default,'Tamil Nadu',0,'Chennai')
+,(default,'Telangana',1,'Hyderabad')
+,(default,'Tripura',0,'Agartala')
+,(default,'Uttaranchal',1,'Dehradun')
+,(default,'Uttar Pradesh',0,'Lucknow')
+,(default,'West Bengal',1,'Kolkata')
+,(default,'Punjab',0,'Chandigarh')
+,(default,'Harding Trujillo',0,'Gravida Corporation')
+,(default,'Salvador Merritt',1,'Natoque Penatibus Et Incorporated')
+,(default,'Demetrius Hull',1,'Nisl Nulla Industries')
+,(default,'Ralph Morse',0,'Neque Inc.')
+,(default,'Cole Payne',0,'Dapibus Quam Quis LLP')
+,(default,'Zephania Mcneil',0,'Tempor Industries')
+,(default,'Kareem Oliver',0,'Eu Ltd')
+,(default,'Nathan Moran',0,'Nulla Inc.')
+,(default,'Perry Bray',1,'Nam Consequat Dolor Foundation')
+,(default,'Paul Mcconnell',0,'Et Libero Associates')
+,(default,'Jack Oneill',1,'Lorem Limited')
+,(default,'Derek Garner',1,'Feugiat Sed Nec Foundation')
+,(default,'Dalton Riggs',1,'Blandit Company')
+,(default,'Upton Dean',0,'Dapibus Gravida Aliquam Foundation')
+,(default,'Ishmael Jones',1,'Volutpat Nulla LLC')
+,(default,'Samson Owen',1,'Lectus Institute')
+,(default,'Chase Lowery',1,'Ornare Corporation')
+,(default,'Julian Fleming',1,'Mi LLP')
+,(default,'Avram Pollard',1,'Aliquet Lobortis Nisi Foundation')
+,(default,'Wing Boyle',0,'Mattis Foundation')
+,(default,'Jermaine Rojas',0,'Aliquam Adipiscing Ltd')
+,(default,'Chadwick Harris',1,'Tristique Senectus Et Associates')
+,(default,'Nash Vaughan',1,'Sociosqu LLC')
+,(default,'Lamar Best',1,'Etiam Vestibulum LLP')
+,(default,'Adrian Valenzuela',0,'Sem Consulting')
+,(default,'Reese Powers',1,'Vel Company')
+,(default,'Robert Wallace',1,'Orci Ut Inc.')
+,(default,'Aquila Crawford',1,'Ac Arcu Nunc Consulting')
+,(default,'Craig Chavez',0,'Augue Malesuada Malesuada Industries')
+,(default,'Ishmael Dominguez',1,'Lobortis Consulting')
+,(default,'Adam Larson',1,'In LLP')
+,(default,'Tanek Brown',0,'Turpis Egestas Aliquam PC')
+,(default,'Kasper Baird',0,'Dictum Augue Malesuada Ltd')
+,(default,'Damon Durham',0,'Adipiscing Lobortis Risus Limited')
+,(default,'Xanthus Charles',0,'Lectus Pede Ultrices LLP')
+,(default,'Tyrone Mcguire',0,'Ornare LLC')
+,(default,'Cody Hewitt',0,'Ac Facilisis Facilisis Institute')
+,(default,'Colton Waters',1,'Sed Incorporated')
+,(default,'Thaddeus Acosta',0,'Vitae Sodales LLP')
+,(default,'Wyatt Hancock',1,'Vitae Limited')
+,(default,'Harding Trujillo',1,'Iaculis Lacus Consulting')
+,(default,'Dennis Hicks',0,'Mauris Associates')
+,(default,'Aidan Miller',0,'Dolor Corp.')
+,(default,'John Henson',0,'In Magna Phasellus Corporation')
+,(default,'Steven Abbott',1,'Nulla Magna Institute')
+,(default,'Nero Mitchell',0,'Nulla Interdum Corp.')
+,(default,'Abdul Wyatt',0,'A Limited')
+,(default,'Jeremy Blanchard',1,'Pharetra Sed Hendrerit Inc.')
+,(default,'Garrett Spencer',1,'Neque Foundation')
+,(default,'Evan Cameron',1,'Elit Dictum Eu Consulting')
+,(default,'Flynn Preston',1,'Enim Consequat Purus Company')
+,(default,'Jarrod Nichols',0,'Enim Sit Amet LLC')
+,(default,'Chancellor Rivers',1,'Non Dui Nec Inc.')
+,(default,'Marsden Diaz',0,'Condimentum Donec Ltd')
+,(default,'Graiden Strickland',1,'At Consulting')
+,(default,'Channing Suarez',1,'Mauris Morbi Consulting')
+,(default,'Garrett Giles',0,'Congue Associates')
+,(default,'Cooper Rowe',0,'Mi Ac Incorporated')
+,(default,'Kenneth Patrick',0,'Orci Luctus Institute')
+,(default,'Mohammad Dixon',0,'Convallis Institute')
+,(default,'Coby Horton',1,'Nec PC')
+,(default,'Vaughan Keller',1,'Ac Fermentum Vel Corp.')
+,(default,'Jack Mclean',0,'Lobortis Industries')
+,(default,'Ray Richmond',0,'Ipsum Corp.')
+,(default,'Branden Keller',1,'Fames LLP')
+,(default,'Brady Terry',0,'Amet Nulla Donec Consulting')
+,(default,'Kenyon Scott',0,'Quis Tristique Ac Ltd')
+,(default,'Marvin Yang',1,'Rhoncus Industries')
+,(default,'Prescott Rice',1,'Suspendisse Dui Industries')
+,(default,'Jerome Leon',1,'Curabitur LLC')
+,(default,'Myles Frye',1,'Lorem Ut Aliquam PC')
+,(default,'Kenyon Blevins',0,'Donec Limited')
+,(default,'Graham Mckee',1,'Nec Euismod Inc.')
+,(default,'Cade Bush',0,'Magna Malesuada Company')
+,(default,'Dominic Morris',1,'Volutpat Nunc LLP')
+,(default,'Blaze Carlson',1,'Luctus PC')
+,(default,'Hamish Barnes',0,'Sem Vitae Aliquam Corporation')
+,(default,'Kyle Griffith',1,'Augue Ut Industries')
+,(default,'Brendan Booker',1,'Mauris Sapien Cursus Foundation')
+,(default,'Flynn Buckley',0,'Magna A Tortor Inc.')
+,(default,'Todd Mcmillan',1,'Arcu Company')
+,(default,'Honorato Hensley',1,'Amet Nulla Inc.')
+,(default,'Brandon Dyer',1,'Metus Vivamus Euismod LLC')
+,(default,'Damian Bentley',1,'Et Rutrum Non LLP')
+,(default,'Fitzgerald Charles',1,'Faucibus Leo Company')
+,(default,'Avram Santana',0,'Fringilla Est Incorporated')
+,(default,'Baxter Poole',0,'Laoreet Libero Et Industries')
+,(default,'Lyle Mcleod',0,'Eget Industries')
+,(default,'Jeremy Guerrero',1,'Aliquet Libero Integer Foundation')
+,(default,'Kasper Snyder',0,'Tellus Eu Augue Inc.')
+,(default,'Timon Christian',0,'Neque Sed Associates')
+,(default,'Kane Chen',0,'Gravida Sagittis Associates')
+,(default,'Hedley Hogan',0,'Aliquet Ltd')
+,(default,'Nissim Burch',0,'Leo Ltd')
+,(default,'Ashton Carson',0,'Semper Egestas Urna LLP')
+,(default,'James Garrett',1,'Donec Vitae Foundation')
+,(default,'Beau Burton',0,'Eget Magna Foundation')
+,(default,'Kamal Gardner',0,'Enim Mi Consulting')
+,(default,'Porter Walker',1,'Metus In Consulting')
+,(default,'Daniel Melton',0,'Mollis Integer Tincidunt Corp.');
 
-INSERT INTO student (id,name) VALUES (default,'Tom');
-INSERT INTO student (id,name) VALUES (default,'Nick');
-INSERT INTO student (id,name) VALUES (default,'Ed');
-INSERT INTO student (id,name) VALUES (default,'Bette');
-INSERT INTO student (id,name) VALUES (default,'Grace');
-INSERT INTO student (id,name) VALUES (default,'Matthew');
-INSERT INTO student (id,name) VALUES (default,'Joe');
-INSERT INTO student (id,name) VALUES (default,'Christian');
-INSERT INTO student (id,name) VALUES (default,'Karl');
-INSERT INTO student (id,name) VALUES (default,'Uma');
-INSERT INTO student (id,name) VALUES (default,'Vivien');
-INSERT INTO student (id,name) VALUES (default,'Cuba');
-INSERT INTO student (id,name) VALUES (default,'Stewart');
-INSERT INTO student (id,name) VALUES (default,'Callie');
-INSERT INTO student (id,name) VALUES (default,'Raphael');
-INSERT INTO student (id,name) VALUES (default,'Charles');
-INSERT INTO student (id,name) VALUES (default,'Ariel');
-INSERT INTO student (id,name) VALUES (default,'Kenyon');
-INSERT INTO student (id,name) VALUES (default,'Isaac');
-INSERT INTO student (id,name) VALUES (default,'Hayfa');
-INSERT INTO student (id,name) VALUES (default,'Sandra');
-INSERT INTO student (id,name) VALUES (default,'Pamela');
-INSERT INTO student (id,name) VALUES (default,'Judah');
-INSERT INTO student (id,name) VALUES (default,'Marsden');
-INSERT INTO student (id,name) VALUES (default,'Abbot');
-INSERT INTO student (id,name) VALUES (default,'Winter');
-INSERT INTO student (id,name) VALUES (default,'Hammett');
-INSERT INTO student (id,name) VALUES (default,'Chava');
-INSERT INTO student (id,name) VALUES (default,'Athena');
-INSERT INTO student (id,name) VALUES (default,'Roth');
-INSERT INTO student (id,name) VALUES (default,'Nayda');
-INSERT INTO student (id,name) VALUES (default,'Carson');
-INSERT INTO student (id,name) VALUES (default,'Zephania');
-INSERT INTO student (id,name) VALUES (default,'Britanney');
-INSERT INTO student (id,name) VALUES (default,'Oleg');
-INSERT INTO student (id,name) VALUES (default,'Denton');
-INSERT INTO student (id,name) VALUES (default,'Ruth');
-INSERT INTO student (id,name) VALUES (default,'Kerry');
-INSERT INTO student (id,name) VALUES (default,'Zane');
-INSERT INTO student (id,name) VALUES (default,'Blake');
-INSERT INTO student (id,name) VALUES (default,'Tobias');
-INSERT INTO student (id,name) VALUES (default,'Donovan');
-INSERT INTO student (id,name) VALUES (default,'Genevieve');
-INSERT INTO student (id,name) VALUES (default,'Norman');
-INSERT INTO student (id,name) VALUES (default,'Gage');
-INSERT INTO student (id,name) VALUES (default,'Tatum');
-INSERT INTO student (id,name) VALUES (default,'Melanie');
-INSERT INTO student (id,name) VALUES (default,'Clinton');
-INSERT INTO student (id,name) VALUES (default,'Rooney');
-INSERT INTO student (id,name) VALUES (default,'Flynn');
-INSERT INTO student (id,name) VALUES (default,'Lenore');
-INSERT INTO student (id,name) VALUES (default,'Samuel');
-INSERT INTO student (id,name) VALUES (default,'Quinn');
-INSERT INTO student (id,name) VALUES (default,'Hyacinth');
-INSERT INTO student (id,name) VALUES (default,'Kylee');
-INSERT INTO student (id,name) VALUES (default,'Flynn');
-INSERT INTO student (id,name) VALUES (default,'Marcia');
-INSERT INTO student (id,name) VALUES (default,'Evan');
-INSERT INTO student (id,name) VALUES (default,'Quincy');
-INSERT INTO student (id,name) VALUES (default,'Lael');
-INSERT INTO student (id,name) VALUES (default,'Daniel');
-INSERT INTO student (id,name) VALUES (default,'Levi');
-INSERT INTO student (id,name) VALUES (default,'Xander');
-INSERT INTO student (id,name) VALUES (default,'Reed');
-INSERT INTO student (id,name) VALUES (default,'Desirae');
-INSERT INTO student (id,name) VALUES (default,'Germane');
-INSERT INTO student (id,name) VALUES (default,'Myra');
-INSERT INTO student (id,name) VALUES (default,'Ivor');
-INSERT INTO student (id,name) VALUES (default,'Nichole');
-INSERT INTO student (id,name) VALUES (default,'Hashim');
-INSERT INTO student (id,name) VALUES (default,'Tyrone');
-INSERT INTO student (id,name) VALUES (default,'Merritt');
-INSERT INTO student (id,name) VALUES (default,'Noel');
-INSERT INTO student (id,name) VALUES (default,'Harlan');
-INSERT INTO student (id,name) VALUES (default,'Quail');
-INSERT INTO student (id,name) VALUES (default,'Hanna');
-INSERT INTO student (id,name) VALUES (default,'Hunter');
-INSERT INTO student (id,name) VALUES (default,'Irene');
-INSERT INTO student (id,name) VALUES (default,'Vera');
-INSERT INTO student (id,name) VALUES (default,'Cade');
-INSERT INTO student (id,name) VALUES (default,'Imelda');
-INSERT INTO student (id,name) VALUES (default,'Ashely');
-INSERT INTO student (id,name) VALUES (default,'Shafira');
-INSERT INTO student (id,name) VALUES (default,'Aimee');
-INSERT INTO student (id,name) VALUES (default,'Madaline');
-INSERT INTO student (id,name) VALUES (default,'Velma');
-INSERT INTO student (id,name) VALUES (default,'Yoshio');
-INSERT INTO student (id,name) VALUES (default,'Sybill');
-INSERT INTO student (id,name) VALUES (default,'Minerva');
-INSERT INTO student (id,name) VALUES (default,'Fletcher');
-INSERT INTO student (id,name) VALUES (default,'Xyla');
-INSERT INTO student (id,name) VALUES (default,'Zane');
-INSERT INTO student (id,name) VALUES (default,'Karleigh');
-INSERT INTO student (id,name) VALUES (default,'Quyn');
-INSERT INTO student (id,name) VALUES (default,'Henry');
-INSERT INTO student (id,name) VALUES (default,'Tatum');
-INSERT INTO student (id,name) VALUES (default,'Tyrone');
-INSERT INTO student (id,name) VALUES (default,'Eagan');
-INSERT INTO student (id,name) VALUES (default,'Nyssa');
-INSERT INTO student (id,name) VALUES (default,'Duncan');
-INSERT INTO student (id,name) VALUES (default,'Daryl');
-INSERT INTO student (id,name) VALUES (default,'Kevin');
-INSERT INTO student (id,name) VALUES (default,'Imelda');
-INSERT INTO student (id,name) VALUES (default,'Priscilla');
-INSERT INTO student (id,name) VALUES (default,'Grace');
-INSERT INTO student (id,name) VALUES (default,'Kerry');
-INSERT INTO student (id,name) VALUES (default,'Aileen');
-INSERT INTO student (id,name) VALUES (default,'Steven');
-INSERT INTO student (id,name) VALUES (default,'Ezra');
-INSERT INTO student (id,name) VALUES (default,'Garrett');
-INSERT INTO student (id,name) VALUES (default,'Lacy');
-INSERT INTO student (id,name) VALUES (default,'Sydney');
-INSERT INTO student (id,name) VALUES (default,'Ramy');
-INSERT INTO student (id,name) VALUES (default,'Karim');
-INSERT INTO student (id,name) VALUES (default,'Tamer');
+INSERT INTO student (id,name) VALUES (default,'Tom')
+,(default,'Nick')
+,(default,'Ed')
+,(default,'Bette')
+,(default,'Grace')
+,(default,'Matthew')
+,(default,'Joe')
+,(default,'Christian')
+,(default,'Karl')
+,(default,'Uma')
+,(default,'Vivien')
+,(default,'Cuba')
+,(default,'Stewart')
+,(default,'Callie')
+,(default,'Raphael')
+,(default,'Charles')
+,(default,'Ariel')
+,(default,'Kenyon')
+,(default,'Isaac')
+,(default,'Hayfa')
+,(default,'Sandra')
+,(default,'Pamela')
+,(default,'Judah')
+,(default,'Marsden')
+,(default,'Abbot')
+,(default,'Winter')
+,(default,'Hammett')
+,(default,'Chava')
+,(default,'Athena')
+,(default,'Roth')
+,(default,'Nayda')
+,(default,'Carson')
+,(default,'Zephania')
+,(default,'Britanney')
+,(default,'Oleg')
+,(default,'Denton')
+,(default,'Ruth')
+,(default,'Kerry')
+,(default,'Zane')
+,(default,'Blake')
+,(default,'Tobias')
+,(default,'Donovan')
+,(default,'Genevieve')
+,(default,'Norman')
+,(default,'Gage')
+,(default,'Tatum')
+,(default,'Melanie')
+,(default,'Clinton')
+,(default,'Rooney')
+,(default,'Flynn')
+,(default,'Lenore')
+,(default,'Samuel')
+,(default,'Quinn')
+,(default,'Hyacinth')
+,(default,'Kylee')
+,(default,'Flynn')
+,(default,'Marcia')
+,(default,'Evan')
+,(default,'Quincy')
+,(default,'Lael')
+,(default,'Daniel')
+,(default,'Levi')
+,(default,'Xander')
+,(default,'Reed')
+,(default,'Desirae')
+,(default,'Germane')
+,(default,'Myra')
+,(default,'Ivor')
+,(default,'Nichole')
+,(default,'Hashim')
+,(default,'Tyrone')
+,(default,'Merritt')
+,(default,'Noel')
+,(default,'Harlan')
+,(default,'Quail')
+,(default,'Hanna')
+,(default,'Hunter')
+,(default,'Irene')
+,(default,'Vera')
+,(default,'Cade')
+,(default,'Imelda')
+,(default,'Ashely')
+,(default,'Shafira')
+,(default,'Aimee')
+,(default,'Madaline')
+,(default,'Velma')
+,(default,'Yoshio')
+,(default,'Sybill')
+,(default,'Minerva')
+,(default,'Fletcher')
+,(default,'Xyla')
+,(default,'Zane')
+,(default,'Karleigh')
+,(default,'Quyn')
+,(default,'Henry')
+,(default,'Tatum')
+,(default,'Tyrone')
+,(default,'Eagan')
+,(default,'Nyssa')
+,(default,'Duncan')
+,(default,'Daryl')
+,(default,'Kevin')
+,(default,'Imelda')
+,(default,'Priscilla')
+,(default,'Grace')
+,(default,'Kerry')
+,(default,'Aileen')
+,(default,'Steven')
+,(default,'Ezra')
+,(default,'Garrett')
+,(default,'Lacy')
+,(default,'Sydney')
+,(default,'Ramy')
+,(default,'Karim')
+,(default,'Tamer');
 
 
 
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,1);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,2);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,3);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,4);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,5);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,6);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,7);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,8);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,9);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,10);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,11);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,12);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,13);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,14);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,15);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,16);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,17);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,18);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,19);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,20);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,21);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,22);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,23);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,24);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,25);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,26);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,27);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,28);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,29);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,30);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,31);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,32);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,33);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,34);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,35);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,36);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,37);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,38);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,39);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,40);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,41);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,42);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,43);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,44);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,45);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,46);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,47);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,48);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,49);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,50);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,51);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,52);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,53);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,54);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,55);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,56);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,57);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,58);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,59);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,60);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,61);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,62);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,63);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,64);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,65);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,66);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,67);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,68);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,69);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,70);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,71);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,72);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,73);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,74);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,75);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,76);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,77);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,78);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,79);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,80);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,81);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,82);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,83);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,84);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,85);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,86);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,87);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,88);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,89);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,90);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,91);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,92);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,93);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,94);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,95);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,96);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,97);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,98);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,99);
-INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,100);
+INSERT INTO tutorial_student (tutorial_id,student_id) VALUES (1,1)
+,(1,2)
+,(1,3)
+,(1,4)
+,(1,5)
+,(1,6)
+,(1,7)
+,(1,8)
+,(1,9)
+,(1,10)
+,(1,11)
+,(1,12)
+,(1,13)
+,(1,14)
+,(1,15)
+,(1,16)
+,(1,17)
+,(1,18)
+,(1,19)
+,(1,20)
+,(1,21)
+,(1,22)
+,(1,23)
+,(1,24)
+,(1,25)
+,(1,26)
+,(1,27)
+,(1,28)
+,(1,29)
+,(1,30)
+,(1,31)
+,(1,32)
+,(1,33)
+,(1,34)
+,(1,35)
+,(1,36)
+,(1,37)
+,(1,38)
+,(1,39)
+,(1,40)
+,(1,41)
+,(1,42)
+,(1,43)
+,(1,44)
+,(1,45)
+,(1,46)
+,(1,47)
+,(1,48)
+,(1,49)
+,(1,50)
+,(1,51)
+,(1,52)
+,(1,53)
+,(1,54)
+,(1,55)
+,(1,56)
+,(1,57)
+,(1,58)
+,(1,59)
+,(1,60)
+,(1,61)
+,(1,62)
+,(1,63)
+,(1,64)
+,(1,65)
+,(1,66)
+,(1,67)
+,(1,68)
+,(1,69)
+,(1,70)
+,(1,71)
+,(1,72)
+,(1,73)
+,(1,74)
+,(1,75)
+,(1,76)
+,(1,77)
+,(1,78)
+,(1,79)
+,(1,80)
+,(1,81)
+,(1,82)
+,(1,83)
+,(1,84)
+,(1,85)
+,(1,86)
+,(1,87)
+,(1,88)
+,(1,89)
+,(1,90)
+,(1,91)
+,(1,92)
+,(1,93)
+,(1,94)
+,(1,95)
+,(1,96)
+,(1,97)
+,(1,98)
+,(1,99)
+,(1,100);
