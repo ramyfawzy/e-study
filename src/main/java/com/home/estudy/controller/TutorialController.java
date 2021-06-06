@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import javax.annotation.security.RolesAllowed;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,6 +44,7 @@ public class TutorialController {
 	@Autowired
 	StudentService studentService;
 
+	@RolesAllowed("user")
 	@Operation(summary = "Find Tutorials by title", description = "Tutorials search by %title%", operationId = "getAllTutorials")
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "successful operation", content = @Content(schema = @Schema(implementation = ResponseEntity.class))),

@@ -32,6 +32,7 @@
 
         <!-- LOG "com.home*" at TRACE level -->
         <Logger name="com.home" level="trace"></Logger>
+        <Logger name="org.keycloak" level="trace"></Logger>
     </Loggers>
 
 </Configuration>

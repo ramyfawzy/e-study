@@ -13,9 +13,20 @@ services:
       ports:
         - "3307:3306"
 #      restart: always
+
+
+    #service 2: definition of keycloak
+    keycloak:
+      image: quay.io/keycloak/keycloak:13.0.1
+      container_name: keycloak-estudy   
+      environment:
+        - KEYCLOAK_USER=admin
+        - KEYCLOAK_PASSWORD=admin
+      ports:
+        - "8180:8080"
       
     
-    #service 2: definition of phpMyAdmin
+    #service 3: definition of phpMyAdmin
     phpmyadmin:
       image: phpmyadmin/phpmyadmin:latest
       container_name: phpmyadmin-estudy
