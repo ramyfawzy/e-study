@@ -17,13 +17,16 @@ services:
 
     #service 2: definition of keycloak
     keycloak:
-      image: quay.io/keycloak/keycloak:13.0.1
+      image: keycloak
       container_name: keycloak-estudy   
       environment:
         - KEYCLOAK_USER=admin
         - KEYCLOAK_PASSWORD=admin
+      build:
+        context: ./keycloak                          #docker file path (. means root directory)
+        dockerfile: Dockerfile
       ports:
-        - "8180:8080"
+        - "8180:8180"
       
     
     #service 3: definition of phpMyAdmin
@@ -55,6 +58,7 @@ services:
         
       depends_on:                           #define dependencies of this app
         - db                                #dependency name (which is defined with this name 'db' in this file earlier)
+        - keycloak
       environment:
         SPRING_PROFILES_ACTIVE: docker
         SPRING_DATASOURCE_URL: jdbc:mysql://mysql-estudy:3306/estudy?allowPublicKeyRetrieval=true&createDatabaseIfNotExist=true&useSSL=false&verifyServerCertificate=false&serverTimezone=UTC
